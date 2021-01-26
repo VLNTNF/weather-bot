@@ -1,11 +1,6 @@
 'use strict';
 const axios = require("axios");
-const apikey = 'D86XNHyKFoHN15VJioA205lYLfrgL1RN';
-
-
-//http://dataservice.accuweather.com/locations/v1/cities/search?apikey=D86XNHyKFoHN15VJioA205lYLfrgL1RN&q=rouen&language=fr-fr
-
-//http://dataservice.accuweather.com/currentconditions/v1/133479?apikey=D86XNHyKFoHN15VJioA205lYLfrgL1RN&language=fr-fr
+const apikey = 'API_KEY';
 
 const bc = "\x1b[32m"; // bot color
 const uc = "\x1b[33m"; // user color
