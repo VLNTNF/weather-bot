@@ -28,9 +28,7 @@ const getWeather = async (location) => {
         const data = get1.data[0];
         return 'It is ' + data.WeatherText.toLowerCase() + ' in ' + cityname + ' (' + data.Temperature.Metric.Value + '°' + data.Temperature.Metric.Unit + ')';
     }
-    catch(error){};
-    
-    
+    catch(error){}; 
 }
 
 module.exports = getWeather;
